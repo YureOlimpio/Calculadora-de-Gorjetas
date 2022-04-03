@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+  --primary-color: #f93;
+  --secundary-color: #777;
+  --tertiary-color: #e6e6e6;
+  --quaternary-color: #ccc;
+}
+
+body {
+  background-color: var(--primary-color);
+  background-image: radial-gradient(circle at center center, #ff8700, #ff9f33), repeating-radial-gradient(circle at center center, #ff8700, #ff8700, 4px, transparent 8px, transparent 4px);
+  background-blend-mode: multiply;
+
+  background-color: var(--primary-color);
+  font-size: 15px;
+  font-family: luto, sans-serif;
+}
+
+#container {
+  position: static;
+  height: 525px;
+  width: 360px;
+  margin: 100px auto;
+  background: var(--tertiary-color);
+  border-radius: 20px;
+}
+
+.title {
+  background: var(--quaternary-color);
+  color: var(--secundary-color);
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+}
+
+.tipsForm {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.formInput {
+  background: #fff;
+  width: 50px;
+  padding: 5px 5px 8px 8px;
+}
+
+.formInput:focus {
+  border: 3px solid var(--primary-color);
+  outline: none;
+}
+
+.formSelect {
+  width: 180px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.formSubmit {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: var(--primary-color);
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: #fff;
+}
+
+#totalTip {
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
